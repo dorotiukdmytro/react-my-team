@@ -1,25 +1,44 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-class App extends Component {
+
+class ToDoList extends Component {
+  state = {
+    tasks: this.props.tasks,
+    draft: ''
+  }
+
+  updateDraft = event => {
+    this.setState({draft: event.target.value})
+  }
+
+  addToDo = () => {
+    const list = this.state.tasks
+    list.push(this.state.draft)
+    this.setState({tasks: list})
+  }
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div>
+        <h1>{this.props.title}</h1>
+        {this.state.tasks.map(task => <div><p>{task}</p></div>)}
+        <input type='text' onChange={this.updateDraft}/>
+        <button onClick={this.addToDo}>Add</button>
+      </div>
+    )
+  }
+}
+
+class App extends Component {
+  myTasks = [
+    'Record a ReactJS video',
+    'Go for a walk'
+  ]
+
+  render() {
+    return (
+      <div>
+        <ToDoList title="My stuff" tasks={this.myTasks} />
       </div>
     );
   }
