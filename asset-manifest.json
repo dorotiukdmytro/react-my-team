@@ -1,13 +1,13 @@
 {
-  "main.css": "/dorotiukdmytro/react-my-team/static/css/main.90a7519a.chunk.css",
-  "main.js": "/dorotiukdmytro/react-my-team/static/js/main.eabe4291.chunk.js",
-  "main.js.map": "/dorotiukdmytro/react-my-team/static/js/main.eabe4291.chunk.js.map",
-  "static/js/1.6eb6405c.chunk.js": "/dorotiukdmytro/react-my-team/static/js/1.6eb6405c.chunk.js",
-  "static/js/1.6eb6405c.chunk.js.map": "/dorotiukdmytro/react-my-team/static/js/1.6eb6405c.chunk.js.map",
-  "runtime~main.js": "/dorotiukdmytro/react-my-team/static/js/runtime~main.6fb7c8d3.js",
-  "runtime~main.js.map": "/dorotiukdmytro/react-my-team/static/js/runtime~main.6fb7c8d3.js.map",
-  "static/css/main.90a7519a.chunk.css.map": "/dorotiukdmytro/react-my-team/static/css/main.90a7519a.chunk.css.map",
-  "index.html": "/dorotiukdmytro/react-my-team/index.html",
-  "precache-manifest.69a9a5c44542169a7ac302970a92200c.js": "/dorotiukdmytro/react-my-team/precache-manifest.69a9a5c44542169a7ac302970a92200c.js",
-  "service-worker.js": "/dorotiukdmytro/react-my-team/service-worker.js"
+  "main.css": "/react-my-team/static/css/main.90a7519a.chunk.css",
+  "main.js": "/react-my-team/static/js/main.4e592700.chunk.js",
+  "main.js.map": "/react-my-team/static/js/main.4e592700.chunk.js.map",
+  "static/js/1.6eb6405c.chunk.js": "/react-my-team/static/js/1.6eb6405c.chunk.js",
+  "static/js/1.6eb6405c.chunk.js.map": "/react-my-team/static/js/1.6eb6405c.chunk.js.map",
+  "runtime~main.js": "/react-my-team/static/js/runtime~main.12192d79.js",
+  "runtime~main.js.map": "/react-my-team/static/js/runtime~main.12192d79.js.map",
+  "static/css/main.90a7519a.chunk.css.map": "/react-my-team/static/css/main.90a7519a.chunk.css.map",
+  "index.html": "/react-my-team/index.html",
+  "precache-manifest.94dc410766e2f74ffdbf8aec5c76a397.js": "/react-my-team/precache-manifest.94dc410766e2f74ffdbf8aec5c76a397.js",
+  "service-worker.js": "/react-my-team/service-worker.js"
 }
